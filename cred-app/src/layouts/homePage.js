@@ -6,6 +6,8 @@ import ProductShowcase from "../components/ProductShowcase";
 import FeelSpecial from "../components/FeelSpecial";
 import Experience from "../components/Experience";
 import CredSecurity from "../components/CredSecurity";
+import BrandsBanner from "../components/BrandsBanner";
+import WindowPeak from "../components/WindowPeek";
 
 const HomePage = () => {
     return (
@@ -14,7 +16,11 @@ const HomePage = () => {
             <HeroSection />
             <ProductShowcase />
             <FeelSpecial />
+            <BrandsBanner />
             <Experience />
+            <div className="non-mobile">
+                <WindowPeak />
+            </div>
             <CredSecurity />
         </>
     );
