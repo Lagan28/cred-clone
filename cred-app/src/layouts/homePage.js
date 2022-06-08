@@ -8,6 +8,7 @@ import Experience from "../components/Experience";
 import CredSecurity from "../components/CredSecurity";
 import BrandsBanner from "../components/BrandsBanner";
 import WindowPeak from "../components/WindowPeek";
+import MobileScroll from "../components/MobileScroll";
 
 const HomePage = () => {
     return (
@@ -18,6 +19,7 @@ const HomePage = () => {
             <FeelSpecial />
             <BrandsBanner />
             <Experience />
+            <MobileScroll />
             <div className="non-mobile">
                 <WindowPeak />
             </div>
