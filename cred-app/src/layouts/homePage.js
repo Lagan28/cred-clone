@@ -10,6 +10,7 @@ import BrandsBanner from "../components/BrandsBanner";
 import WindowPeak from "../components/WindowPeek";
 import MobileScroll from "../components/MobileScroll";
 import Story from "../components/Story";
+import AppRating from "../components/AppRating";
 
 const HomePage = () => {
     return (
@@ -26,6 +27,7 @@ const HomePage = () => {
             </div>
             <CredSecurity />
             <Story />
+            <AppRating />
         </>
     );
 }
